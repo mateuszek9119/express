@@ -3,6 +3,19 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
+li {
+  list-style: none;
+  margin-top: .5%;
+}
+
+
 a {
+
   color: #00B7FF;
+  text-decoration: none;
+}
+
+li.active {
+  list-style: circle;
+  font-weight: bold;
 }
